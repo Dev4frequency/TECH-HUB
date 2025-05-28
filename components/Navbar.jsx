@@ -27,10 +27,10 @@ const Navbar = () => {
           Shop
         </Link>
         <Link href="/" className="hover:text-gray-900 transition">
-          About Us
+          {/* About Us */}
         </Link>
         <Link href="/" className="hover:text-gray-900 transition">
-          Contact
+          {/* Contact */}
         </Link>
 
         {isSeller && <button onClick={() => router.push('/seller')} className="text-xs border px-4 py-1.5 rounded-full">Seller Dashboard</button>}
@@ -38,7 +38,7 @@ const Navbar = () => {
       </div>
 
       <ul className="hidden md:flex items-center gap-4 ">
-        <Image className="w-4 h-4" src={assets.search_icon} alt="search icon" />
+        {/* <Image className="w-4 h-4" src={assets.search_icon} alt="search icon" /> */}
         {
           user
             ? <>
